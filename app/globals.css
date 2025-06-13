@@ -1,0 +1,147 @@
+/* Navbar Styles */
+.navbar {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #ea5455;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #444;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ea5455;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.signin-btn {
+  padding: 0.6rem 1.2rem;
+  background: transparent;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.signup-btn {
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.signin-btn:hover {
+  border-color: #ea5455;
+  color: #ea5455;
+}
+
+.signup-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(234, 84, 85, 0.3);
+}
+
+/* Footer Styles */
+.footer {
+  background: #f9f9f9;
+  padding: 4rem 0 0;
+  margin-top: 5rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+}
+
+.footer-brand h3 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer-brand p {
+  font-family: 'Inter', sans-serif;
+  color: #666;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.link-group h4 {
+  font-family: 'Manrope', sans-serif;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.link-group a {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  color: #666;
+  margin-bottom: 0.8rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.link-group a:hover {
+  color: #ea5455;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-top: 1px solid #eee;
+  font-family: 'Inter', sans-serif;
+  color: #888;
+  font-size: 0.9rem;
+}
