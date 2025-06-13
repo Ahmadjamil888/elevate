@@ -16,10 +16,10 @@ ELEVATE is a clean, modern UI/UX design project for a fictional cloud services c
 ### Home Page  
 ![Home Page](https://raw.githubusercontent.com/Ahmadjamil888/elevate/refs/heads/main/public/Screenshot%202025-06-14%20023515.png)
 
-### Auth Page  
+### Contact Page  
 ![Auth Page](https://raw.githubusercontent.com/Ahmadjamil888/elevate/refs/heads/main/public/Screenshot%202025-06-14%20023545.png)
 
-### Dashboard View  
+### Auth View  
 ![Dashboard](https://raw.githubusercontent.com/Ahmadjamil888/elevate/refs/heads/main/public/Screenshot%202025-06-14%20023612.png)
 
 ## Getting Started
